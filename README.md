@@ -18,14 +18,14 @@ ConditionalStatementsExpanded/
 
 ## 1. **Create the Project Folder and File**
 
-- [ ] If you haven't already, create a folder named `ConditionalStatementsExpanded` to store your project files.
-- [ ] Inside the `ConditionalStatementsExpanded` folder, create or open the file named `index.js`. This file will contain all your JavaScript code.
+- [x ] If you haven't already, create a folder named `ConditionalStatementsExpanded` to store your project files.
+- [x ] Inside the `ConditionalStatementsExpanded` folder, create or open the file named `index.js`. This file will contain all your JavaScript code.
 
 ## 2. **Expand Conditional Logic with `else if`**
 
 Start by setting up a basic conditional statement using `if` and `else`. This will allow you to execute different blocks of code based on whether a condition is `true` or `false`.
 
-- [ ] In your `index.js` file, add the following code to create a simple `if` and `else` statement:
+- [ x] In your `index.js` file, add the following code to create a simple `if` and `else` statement:
 
 ```js
 // Using `if` and `else` to handle two possible conditions
@@ -38,7 +38,7 @@ if (weather === 'rainy') {
 }
 ```
 
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [ x] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 
 
@@ -52,8 +52,8 @@ if (weather === 'rainy') {
 
 Now, let's enhance the conditional logic by adding an `else if` statement. This allows your program to check multiple conditions in sequence after the initial `if` condition.
 
-- [ ] In your `index.js` file, change the value of the `weather` variable to `"cloudy"`. Do this by creating a new line that reassigns the variable, rather than modifying the original line where it is declared.
-- [ ] Update your code to expand your example with an `else if` statement:
+- [ x] In your `index.js` file, change the value of the `weather` variable to `"cloudy"`. Do this by creating a new line that reassigns the variable, rather than modifying the original line where it is declared.
+- [ x] Update your code to expand your example with an `else if` statement:
 
 ```js
 // Expanding the logic with `else if`
@@ -68,7 +68,7 @@ if (weather === 'rainy') {
 }
 ```
 
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [x ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 **Explanation:**
 
@@ -79,7 +79,7 @@ if (weather === 'rainy') {
 ## 4. **Understand Why Order Matters**
 Conditions are evaluated in order from top to bottom. Once a `true` condition is found, its block is executed, and the rest are skipped. 
 
-- [ ] In your `index.js` file, switch the order of the `else` and `else if` statements:
+- [ x] In your `index.js` file, switch the order of the `else` and `else if` statements:
 
 ```js
 // Order Matters: Switching else and else if statements
@@ -94,10 +94,10 @@ if (weather === 'rainy') {
 }
 ```
 
-- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+- [ x] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 ![Screenshot of the unexpected token error](assets/images/unexpected_token_error.png)
-- [ ] Observe the "`Unexpected token 'else'`" error in the console.
+- [ x] Observe the "`Unexpected token 'else'`" error in the console.
 
 **Explanation:**
 
@@ -110,7 +110,7 @@ if (weather === 'rainy') {
 
 Combine all the concepts to create a complete example using all three components: `if`, `else if`, and `else`.
 
-- [ ] In your `index.js` file, add the following code to create a new example that builds on what you've learned about `if`, `else if` and `else` conditional statements:
+- [x ] In your `index.js` file, add the following code to create a new example that builds on what you've learned about `if`, `else if` and `else` conditional statements:
 
 ```js
 // Full example using `if`, `else if`, and `else` statements
@@ -129,7 +129,7 @@ if (grade >= 90) {
 }
 ```
 
-- [ ] Run your JavaScript file in the terminal by entering `node index.js` and pressing Enter.
+- [x ] Run your JavaScript file in the terminal by entering `node index.js` and pressing Enter.
 
 **Explanation:**
 
@@ -142,11 +142,11 @@ if (grade >= 90) {
 
 ## 6. **Practice Writing Your Own Multi-Choice Conditions**
 
-- [ ] Write your own examples using `if`, `else if`, and `else` to handle multiple conditions. Try experimenting with different scenarios, such as determining discount rates based on customer age or determining movie ticket prices based on age.
+- [x ] Write your own examples using `if`, `else if`, and `else` to handle multiple conditions. Try experimenting with different scenarios, such as determining discount rates based on customer age or determining movie ticket prices based on age.
 
 ## 7. **Commit and Push to Github**
 
-- [ ] Commit and push your work to Github.
+- [ x] Commit and push your work to Github.
 
 ##
 
